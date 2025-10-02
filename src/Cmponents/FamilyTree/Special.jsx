@@ -7,7 +7,7 @@ const Special = ({asset}) => {
     console.log(newAsset);
 
     return (
-        <div  className='border-1 m-4 p-5 bg-pink-500'>
+        <div  className='border-1 m-4 p-5 bg-pink-500 text-white'>
             <h3>Special</h3>
             <p>Asset: {asset}</p>
             <p>New Asseet: {newAsset}</p>
