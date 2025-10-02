@@ -3,16 +3,16 @@ import Dad from "./Dad";
 import Uncle from "./Uncle";
 import Aunty from "./Aunty";
 
-const Grandpa = () => {
+const Grandpa = ({asset}) => {
 
     
   return (
-    <div className="border-1 mt-2">
+    <div className="border-1 mt-2 bg-teal-500">
       <h3>Grand Pa</h3>
       <section className="flex justify-between">
-        <Dad></Dad>
+        <Dad asset={asset}></Dad>
         <Uncle></Uncle>
-        <Aunty></Aunty>
+        <Aunty asset={asset}></Aunty>
       </section>
     </div>
   );

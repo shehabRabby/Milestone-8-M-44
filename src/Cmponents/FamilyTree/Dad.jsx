@@ -3,12 +3,12 @@ import Myself from './Myself';
 import Brother from './Brother';
 import Sister from './Sister';
 
-const Dad = () => {
+const Dad = ({asset}) => {
     return (
-        <div className='border-1 m-4 p-5'>
+        <div className='border-1 m-4 p-5 bg-amber-200'>
             <h3>Dad</h3>
            <section className='flex'>
-                <Myself></Myself>
+                <Myself asset={asset}></Myself>
                 <Brother></Brother>
                 <Sister></Sister>
            </section>
